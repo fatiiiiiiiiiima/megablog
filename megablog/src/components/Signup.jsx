@@ -7,7 +7,7 @@ import {useDispatch} from 'react-redux'
 import {useForm} from 'react-hook-form'
 
 
-  function Signup() {
+  export function Signup() {
     const navigate = useNavigate()
     const [error, setError] = useState("")
     const dispatch = useDispatch()
@@ -86,4 +86,4 @@ import {useForm} from 'react-hook-form'
   )
 }
 
-export default Signup
+// export default Signup
